@@ -1,0 +1,211 @@
+ <!DOCTYPE html>
+<html class="html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <meta name="generator" content="7.1.329.244">
+  <meta name="description" content="Win big prizes">
+  <meta name="keywords" content="prixes,phones,samsung">
+  <link rel="shortcut icon" href="images/a-master-favicon.ico?230338711">
+
+    <title>Sweepstakes</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">   
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>   
+    <script type="text/javascript" src="js/sweepstakes.js"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+</script>
+
+   </head>
+ <body>
+    <div class="container">
+
+      <!-- Primeira row -> SPIN THE WHEEL Primeiro Step -->
+        <div class="row" id="step1">
+
+          <!-- Primeira linha (mobile) -> TEXTO -->
+          <div class="col-sm-12 col-md-push-7 col-md-5 spinWheelText">
+            <div class="col-md-12 col-sm-12">
+              <h1>Spin The Wheel</h1>
+            </div>
+            <div class="col-md-12 col-sm-12">
+              <h2>for a chance to win</h2>
+            </div>
+            <div class="col-md-12 col-sm-12">
+              <button type="button" class="button" id="btspin">SPIN</button>
+            </div>
+        </div>
+      
+          
+      
+        <!-- Segunda linha (mobile) -> RODA -->
+        <div class="col-sm-12 col-md-pull-5 col-md-7 ">
+            <div class="wrapper" id="wheeltransparency">
+              <!-- SETA RODA -->
+                  <div id="wheel_arrow">
+                    <img id="arrow" src="images/arrow.png">
+                  </div>
+                  <!-- IMAGEM DA MARGEM DA RODA -->
+                  <div id="wheel_outside">
+                    <img id="arrow" src="images/wheel_outside.png">
+                  </div>
+                  <!-- DIVISÕES DA RODA -->
+                <div id="wheel">                  
+                    <div id="inner-wheel">
+                      <!-- 1ª DIVISÃO -> NO PRIZE -->
+                        <div class="sec">
+                          <span class="wheelText prizeTextBig textNo capslock">No</span>
+                          <br>
+                          <span class="wheelText prizeTextSmall capslock">Prize</span>
+                        </div>
+                <!-- 2ª DIVISÃO -> NO PRIZE -->
+                        <div class="sec">
+                          <span class="wheelText prizeTextBig textNo capslock">No</span>
+                          <br>
+                          <span class="wheelText prizeTextSmall capslock">Prize</span>
+                        </div>
+                        <!-- 3ª DIVISÃO -> PRIZE OF THE DAY -->
+                        <div class="sec">
+                          <span class="wheelText prizeTextBig capslock">Prize</span>
+                          <br>
+                          <span class="wheelText prizeTextSmall textDay capslock">of the day</span>
+                        </div>
+                        <!-- 4ª DIVISÃO -> NO PRIZE -->
+                        <div class="sec">
+                          <span class="wheelText prizeTextBig textNo capslock">No</span>
+                          <br>
+                          <span class="wheelText prizeTextSmall capslock">Prize</span>
+                        </div>
+                        <!-- 5ª DIVISÃO -> JACKPOT -->
+                        <div class="sec">
+                          <span class="wheelText prizeTextBig textNo capslock">No</span>
+                          <br>
+                          <span class="wheelText prizeTextSmall capslock">Prize</span>
+                        </div>
+                        <!-- 6ª DIVISÃO -> YOU WIN -->
+                        <div class="sec">
+                  <span class="wheelText verticalText capslock">Jackpot</span>
+                        </div>
+                    </div>       
+                    
+                    <!-- IMAGEM DO CENTRO DA RODA -->
+                    <div id="spin">
+                      <img src="images/wheel_center.png" style="width: 100%; height: 100%;">              
+                    </div>
+                </div>
+                    
+                    
+                </div>
+            </div>
+      </div>    
+
+
+      <!-- Primeira row -> Fim do Primeiro Step -->
+      <!-- Primeira row -> Segundo Step -->
+        <div class="row" id="emailform" style="display: none;">
+
+          <!-- TEXTO -->
+          <div class="col-sm-12 col-md-push-7 col-md-5 spinWheelText">
+            <div class="col-md-12 col-sm-12">
+              <h1>Congratulations!</h1>
+            </div>
+            <div class="col-md-12 col-sm-12">
+              <h2>You have just won the possibility to receive a Samsung Galaxy 8</h2>
+              <p>Please click continue to get your prize</p>
+            </div>
+            <div class="col-md-12 col-sm-12">
+            <a style="text-decoration: none;" href="https://www.yahoo.com">
+              <button id="subutton" class="button" style="padding-left: 40px; padding-right: 40px;"> Continue</button>
+            </a>
+            </div>
+        </div>
+        <!-- IMAGEM DO PREMIO -->
+        <div class="col-sm-12 col-md-pull-5 col-md-7 ">
+            <div class="wrapper" align="center">
+                  <img class="prizeimage" src="images/winner.png">
+            </div> 
+          </div>
+      </div>    
+      <!-- Primeira row -> Fim do Segundo Step -->      
+
+      <!-- Segunda row -> WHAT ARE THE PRIZES -->
+      <div class="row" style="margin-top:10%;">
+          <!-- Texto -->
+          <div class="col-sm-12 text-center capslock">
+            <h1> What are the prizes? </h1>
+          </div>
+        <div id="chancesentence" class="col-sm-12 text-center">
+            <h4>Our wheel has a very low chance of winning but you never know!</h4>
+          </div>
+        <div class="col-sm-12 text-center">
+            <h3>See a list of potential prizes bellow</h3>
+          </div>
+      </div>
+
+      <!-- Terceira row -> IMAGENS PREMIOS-->
+      <div class="row" style="margin-top:5%;">
+          <!-- Primeira coluna - 1º PREMIO  -->
+          <div class="col-sm-4 text-center">
+            <div class="col-sm-12">
+              <img src="images/prize_1.png">
+            </div>
+            <div class="col-sm-12">
+              <span class="col-sm-12 productDescription"> Samsung <br> Galaxy 8 </span>
+            </div>
+            <div class="col-sm-12 ">
+              <span class="col-sm-12 productAvailable"> Still available: 7 </span>
+            </div>
+          </div>
+        <!-- Segunda coluna -> 2º PREMIO -->
+          <div class="col-sm-4 text-center">
+            <div class="col-sm-12">
+              <img src="images/prize_2.png">
+            </div>
+            <div class="col-sm-12">
+              <span class="col-sm-12 productDescription"> QLED Smart <br> Television</span>
+            </div>
+            <div class="col-sm-12">
+              <span class="col-sm-12 productAvailable"> Still available: 3 </span>
+            </div>
+          </div>
+          <!-- Terceira coluna -> 3º PREMIO -->
+          <div class="col-sm-4 text-center">
+            <div class="col-sm-12">
+              <img src="images/prize_3.png">
+            </div>
+            <div class="col-sm-12">
+              <span class="col-sm-12 productDescription">Shopping <br> Gift Cards</span>
+            </div>
+            <div class="col-sm-12">
+              <span class="col-sm-12 productAvailable"> Still available: 12 </span>
+            </div>
+          </div>
+      </div>
+
+      <!-- Quarta row -> AND MUCH MORE EVERY DAY -->
+      <div id="4row" class="row" style="margin-top:10%;">
+          <!-- Texto -->
+          <div class="col-sm-12 text-center muchmore spinTextBold capslock">
+            <h1>AND MUCH MORE EVERY DAY!</h1>
+          </div>
+        <div class="col-sm-12 text-center">
+            <h3>Spin the wheel for a chance of winning the first one is free.</h3>
+          </div>
+          <div class="col-sm-12 text-center">
+            <div class="col-md-3"><br></div>
+            <div class="col-md-6 col-sm-12">
+              <button type="button" class="button" id="btspin2">SPIN</button>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+    
+      </div>
+    
+    </div>
+   </body>
+</html>
